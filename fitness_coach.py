@@ -3,7 +3,7 @@ import openai
 import streamlit as st
 from streamlit_chat import message    #streamlit_chat is a streamlit component developed for chats
 
-openai.api_key = "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"    #declaring a variable "api_secret" for the api key
+openai.api_key = "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"    #declaring a variable "api_secret" for the api key
 
 #creating a function to call the api
 
@@ -28,7 +28,7 @@ if 'past' not in st.session_state:
     st.session_state['past'] = []
 
 def get_text():
-    input_text = st.text_input("You: ","Hola!, Tell me something about fitness.",key="input")
+    input_text = st.text_input("You: ","Hola! Tell me something about fitness.",key="input")
     return input_text    
 
 user_input = get_text()
