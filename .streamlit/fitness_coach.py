@@ -1,4 +1,4 @@
-<<<<<<< HEAD:.streamlit/fitness_coach.py
+
 #import libraries
 import openai 
 import streamlit as st
@@ -53,7 +53,6 @@ if st.session_state['generated']:
 
 
 
-=======
 #import libraries
 import openai 
 import streamlit as st
@@ -106,4 +105,4 @@ if st.session_state['generated']:
 
 
 
->>>>>>> 08bc0d28ffb1442ecaa7ab88295910191a81a9fe:fitness_coach.py
+
